@@ -4,7 +4,7 @@ Simple Hidden Markov Model
 This is a simple case calculator of the states sequence
 through a exsisting [Hidden Markov Model](http://en.wikipedia.org/wiki/Hidden_Markov_model).
 
-The Program is written in [Ruby](https://www.ruby-lang.org).
+The program is written in [Ruby](https://www.ruby-lang.org).
 
 ## Run
 
@@ -30,8 +30,8 @@ For every HMM there are four initial conditions
 
 More informations are shown in Use Cases
 
-Fulfilled these conditions the calculator would make a sequence hypothesis according the oberservation 
-by using [Viterbi algorithm](http://en.wikipedia.org/wiki/Viterbi_algorithm).
+Fulfilled these conditions the calculator would make a sequence hypothesis 
+according to the oberservation by using [Viterbi algorithm](http://en.wikipedia.org/wiki/Viterbi_algorithm).
 
 ## Classes
 
@@ -80,8 +80,8 @@ Oberservation posibilities:
 
 ### Weahter
 
-By knowing the yesterday's weather to predict today's weather
-according the oberservations.
+By knowing yesterday's weather to predict today's weather
+according to the oberservations.
 
 State posibilities:
 
@@ -101,4 +101,4 @@ Oberservation posibilities:
 To change any intial conditions, just modify them in the use cases file(ex. calc_doctor.rb).
 
 For example by adding some more oberservation results in the oberservation sequence 
-to see the new hypothesis sequence.
+to see the new hypothesis sequence or change the probabilties. 
